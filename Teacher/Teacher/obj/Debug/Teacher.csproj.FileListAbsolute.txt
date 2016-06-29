@@ -1,0 +1,14 @@
+F:\课件\Teacher\Teacher\bin\Debug\Teacher.exe.config
+F:\课件\Teacher\Teacher\bin\Debug\Teacher.exe
+F:\课件\Teacher\Teacher\bin\Debug\Teacher.pdb
+F:\课件\Teacher\Teacher\bin\Debug\mysql.data.dll
+F:\课件\Teacher\Teacher\bin\Debug\mysql.data.entity.dll
+F:\课件\Teacher\Teacher\bin\Debug\mysql.visualstudio.dll
+F:\课件\Teacher\Teacher\bin\Debug\mysql.web.dll
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.Form1.resources
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.Form2.resources
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.Form3.resources
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.Properties.Resources.resources
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.csproj.GenerateResource.Cache
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.exe
+F:\课件\Teacher\Teacher\obj\Debug\Teacher.pdb
