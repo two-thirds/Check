@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="#FF0033" > 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="注册"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 校名："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Spinner
+            android:id="@+id/spnSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/dept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 院系："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Spinner
+            android:id="@+id/spnDept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/schoolnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 学号："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+         android:id="@+id/SchoolNum"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="50"
+         android:ems="10"
+         android:hint="请输入数字"
+         android:inputType="number" >
+
+         <requestFocus />
+     </EditText>
+    
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 姓名："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+         android:id="@+id/Name"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="50"
+         android:ems="10" >
+
+         <requestFocus />
+     </EditText>
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/buildingnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 宿舍楼："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Spinner
+            android:id="@+id/spnBuilding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/chambernum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 宿舍号："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+         android:id="@+id/ChamberNum"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="50"
+         android:ems="10"
+         android:hint="请输入数字"
+         android:inputType="number" >
+
+         <requestFocus />
+     </EditText>
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 密码："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+         android:id="@+id/Password"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="50"
+         android:ems="10"
+         android:hint="请输入数字和字母的组合"
+         android:inputType="textPassword" >
+
+         <requestFocus />
+     </EditText>
+    
+</LinearLayout>
+
+<Button
+    android:id="@+id/logon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="确定"
+    android:background="#FF0033"
+    android:textColor="#FFFFFF"  />
+
+</LinearLayout>

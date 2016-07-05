@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.f.logIn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <!--      <activity
+            android:name="com.example.e.n2"
+            android:label="n2" >
+        </activity>
+           <activity
+            android:name="com.example.e.z4"
+            android:label="z4" >
+        </activity>
+        <activity
+            android:name="com.example.e.s3"
+            android:label="s3" >
+        </activity> -->   
+        
+                
+          <!-- <activity
+            android:name="com.example.f.GPS"
+            android:label="GPS" >
+        </activity> -->
+<!--          <activity
+            android:name="com.example.f.signUp"
+            android:label="signUp" >
+        </activity>
+ <activity
+            android:name="com.example.f.askOff"
+            android:label="askOff" >
+        </activity>
+
+        <activity
+            android:name="com.example.f.signIn"> </activity> -->
+        
+             <activity
+            android:name="com.example.f.signIn"> </activity>
+       
+     <activity
+            android:name="com.example.f.askOff"
+            android:label="askOff" >
+        </activity>
+        
+         <activity
+            android:name="com.example.f.signUp"
+            android:label="signUp" >
+        </activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
