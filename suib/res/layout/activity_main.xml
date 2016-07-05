@@ -1,0 +1,182 @@
+ <!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+ 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="74dp"
+        android:text="Button" />
+
+</RelativeLayout> 
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="#FF0033" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textLogon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:text="注册  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 校名："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Spinner
+            android:id="@+id/spnSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/schoolnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 学号："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+         android:id="@+id/SchoolNum"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="50"
+         android:ems="10"
+         android:hint="请输入数字"
+         android:inputType="number" >
+
+         <requestFocus />
+     </EditText>
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+    <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 密码："
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     <EditText
+         android:id="@+id/Password"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="5dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="50"
+         android:ems="10"
+         android:hint="请输入数字和字母的组合"
+         android:inputType="textPassword" >
+
+         <requestFocus />
+     </EditText>
+    
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定" 
+        android:textColor="#FFFFFF"
+        android:background="#FF0033"/>
+
+</LinearLayout>
+
+</LinearLayout> 
+
+</LinearLayout>
+
+ 
